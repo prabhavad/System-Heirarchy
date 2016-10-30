@@ -4,7 +4,7 @@ To learn system heirarchy from basics
 ```
   |----------|
   | Power ON |
-  |----------|
+  |----------|  
         |
         |
       \ | /
@@ -65,6 +65,7 @@ The main purpose of BIOS is to load OS program. BIOS performs POST ( POWER ON SE
 ```
 
 ###Boot Devices
+A boot device is any piece of hardware that can read or contains the files required for a computer to start. For example, a floppy disk drive, CD-ROM drive, DVD drive, and USB jump drive are all considered bootable devices. However, unless the necessary boot files are stored on the drive, diskette, or disc the computer will not be able to boot from that device.
 ```
 BIOS supports booting from devices such as:
 a. A local hard disk drive via the Master Boot Record (MBR) (and of several MS-DOS partitions on such a disk, or GPT through GRUB 2). 
